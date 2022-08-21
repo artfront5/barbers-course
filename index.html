@@ -14,10 +14,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
     integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
     crossorigin="anonymous"></script>
-  <script src="https://api-maps.yandex.ru/2.1/?apikey=966dde1a-6834-404c-a0c1-054222d41aa5&lang=ru_RU"
-    type="text/javascript">
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=966dde1a-6834-404c-a0c1-054222d41aa5&lang=ru_RU">
     </script>
-  <!-- <script src="index.js" defer></script> -->
+  <script src="index.js" defer></script>
 </head>
 
 <body>
@@ -73,12 +72,33 @@
             Первое полноценное занятие бесплатно для всех желающих. Его прохождение ни
             к чему не обязывает и можно отказаться в любой момент
           </p>
-            <button class="button">
+            <button class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
               Обраный звонок<span class="flare"></span>
             </button>
         </div>
       </div>
     </section>
+
+    <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <p class="modal-title" id="exampleModalLabel">Мы вам перезвоним ;)</p>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <input type="text" class="form-control mb-3" placeholder="Введите имя" aria-label="Username" aria-describedby="basic-addon1">
+          <input type="text" class="form-control" placeholder="Введите номер телефона" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+          <button type="button" class="btn btn-primary">Отправить</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Modal -->
     <section class="servicesSection" id="services">
       <div class="container containerCards">
         <div class="row">
@@ -90,40 +110,40 @@
         <div class="row">
           <div class="col-lg-4 col-md-12">
             <img class="sevicesImg" src="img/beard.png" alt="" />
-            <h3 class="serviceTitle">Барбер с нуля — Индивидуальный</h3>
+            <h3 class="serviceTitle">Барбер с нуля</h3>
             <br />
             <p class="price">
               Базовый курс для начинающих с нулевым или начальным опытом
               <br />
               50000 рублей
             </p>
-            <button class="button" >
+            <button class="button" data-bs-toggle="modal" data-bs-target="#exampleModal" >
               Приобрести<span class="flare"></span>
             </button>
           </div>
           <div class="col-lg-4 col-md-12">
             <img class="sevicesImg" src="img/finn.png" alt="" />
-            <h3 class="serviceTitle">Барбер с нуля — Групповой</h3>
+            <h3 class="serviceTitle">Барбер с нуля</h3>
             <br />
             <p class="price">
               Курс для группы от 3 до 6 человек
               <br />
               40000 рублей
             </p>
-            <button class="button" >
+            <button class="button" data-bs-toggle="modal" data-bs-target="#exampleModal" >
               Приобрести<span class="flare"></span>
             </button>
           </div>
           <div class="col-lg-4 col-md-12">
             <img class="sevicesImg" src="img/hair.png" alt="" />
-            <h3 class="serviceTitle">Барбер с нуля — Групповой</h3>
+            <h3 class="serviceTitle">Из парикмахера в барберы</h3>
             <br />
             <p class="price">
-              Курс для группы от 3 до 6 человек
+              Индивидуальный курс с опытом
               <br />
-              40000 рублей
+              35000 рублей
             </p>
-            <button class="button" >
+            <button class="button" data-bs-toggle="modal" data-bs-target="#exampleModal" >
               Приобрести<span class="flare"></span>
             </button>
           </div>
@@ -238,7 +258,7 @@
           <div class="col-lg-6">
             <div class="textContact">
               <h1>Контакты</h1>
-              <h6>+7(999)999-99-99</h6>
+              <h6>+7(911)744-99-09</h6>
               <h6>barbersopsc1@gmail.com</h6>
               <h6>Россия, Санкт-Петербург, ул.Федора Абрамова 8б, корпус 3</h6>
               <h6>Часы работы: с 10:00 до 21:00</h6>

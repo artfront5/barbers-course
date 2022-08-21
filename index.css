@@ -11,6 +11,7 @@ body {
   line-height: 1.8;
   color: #282828;
   background-color:#f3f3f3;
+  
 }
 
 h1,
@@ -216,7 +217,7 @@ h3 {
 
 .price {
   height: 100px;
-  color: #444444;
+  color: #282828;
   font-weight: 700;
   font-size: 16px;
   font-family: 'Prata', sans-serif;
@@ -248,7 +249,6 @@ h3 {
 }
 
 .line {
-  padding-bottom: 10px;
   width: 300px;
   border-top: 3px solid #fff;
   margin-left: auto;
@@ -352,6 +352,16 @@ padding: 10px;
 
 /* COMMAND */
 
+
+/* MODAL */
+.modal-title{
+  font-size: 24px;
+}
+.modal-content {
+  border-radius: 0px;
+}
+/* MODAL */
+
 /* CONTACT */
 
 .contact {
@@ -383,7 +393,7 @@ padding: 10px;
 }
 
 .footer {
-  background-color: black;
+  background-color: #282828;
   padding-top: 10px;
   padding-bottom: 40px;
   justify-content: center;
@@ -429,7 +439,7 @@ padding: 10px;
   width: 300px;
   height: 150px;
   padding: 5px;
-  border: solid 1px black;
+  border: solid 1px #282828;
 }
 .aboutSection {
   padding-top: 50px;
@@ -586,7 +596,7 @@ padding: 10px;
   width: 150px;
   height: 40px;
   background-color: #e4e4e4;
-  color: #000;
+  color: #282828;
   transition: 0.3s;
 }
 
@@ -616,6 +626,25 @@ padding: 10px;
   justify-content: center;
   align-items: center;
 }
+[class*="copyrights-pane"] {
+  display: none !important;
+}
+.btn {
+  border-radius: 0px;
+}
+.btn-primary{
+  background-color: #fe3d3d;
+  border: 1px solid #fe3d3d;
+}
+.btn-primary:hover{
+    background: #bb0404;
+   border: 1px solid #bb0404;
+  color: white;
+}
+.form-control:hover {
+ 
+}
+
 @media (max-width: 767px) {
 .heading-line{
   width: 160px;
@@ -624,3 +653,4 @@ padding: 10px;
  width: 160px;
 }
 }
+
