@@ -84,7 +84,7 @@ img {
 
 #start {
   background: linear-gradient(to right, #212121, rgba(238, 239, 244, 0)),
-    url(../img/997.jpg);
+    url(img/997.jpg);
   min-height: 100vh;
   background-position: right;
   background-size: cover;
