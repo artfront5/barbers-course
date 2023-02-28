@@ -6,8 +6,5 @@
 Верстка реализована с помощью Bootstrap, CSS3.
 
 
-Посмотреть проект можно перейдя по ссылке:
+Посмотреть проект можно перейдя [по ссылке](https://weather-api-blc4.vercel.app/)
 
-```
-https://artfront5.github.io/barbers-course/
-```
